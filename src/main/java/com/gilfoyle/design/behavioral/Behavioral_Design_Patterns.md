@@ -1,0 +1,1 @@
+[行为模式](Behavioral Design Patterns) [11种]
