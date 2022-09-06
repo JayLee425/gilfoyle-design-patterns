@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.gilfoyle.design.structural.composite.Tree</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">com.gilfoyle.design.structural.composite.TreeNode</node>
+    <node x="49.0" y="217.0">com.gilfoyle.design.structural.composite.Tree</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.gilfoyle.design.structural.composite.Tree" target="com.gilfoyle.design.structural.composite.TreeNode" relationship="TO_ONE">
+      <point x="-43.0" y="-50.5" />
+      <point x="92.0" y="192.0" />
+      <point x="67.5" y="192.0" />
+      <point x="-67.5" y="83.5" />
+    </edge>
+    <edge source="com.gilfoyle.design.structural.composite.Tree" target="com.gilfoyle.design.structural.composite.TreeNode" relationship="CREATE">
+      <point x="43.0" y="-50.5" />
+      <point x="178.0" y="192.0" />
+      <point x="202.5" y="192.0" />
+      <point x="67.5" y="83.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="66.5" y="98.5" />
+  <SelectedNodes>
+    <node>com.gilfoyle.design.structural.composite.Tree</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

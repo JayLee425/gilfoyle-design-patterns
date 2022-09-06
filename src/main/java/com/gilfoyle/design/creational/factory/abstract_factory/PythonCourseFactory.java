@@ -8,6 +8,11 @@ package com.gilfoyle.design.creational.factory.abstract_factory;
  */
 public class PythonCourseFactory extends AbstractCourseFactory {
 	@Override
+	public ICourse createCourse() {
+		return new PythonCourse();
+	}
+	
+	@Override
 	public INote createNote() {
 		init();
 		return new PythonNote();

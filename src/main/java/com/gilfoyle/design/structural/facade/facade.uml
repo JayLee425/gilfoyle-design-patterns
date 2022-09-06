@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.gilfoyle.design.structural.facade.design.Computer</OriginalElement>
+  <nodes>
+    <node x="350.0" y="0.0">com.gilfoyle.design.structural.facade.design.Disk</node>
+    <node x="173.5" y="160.0">com.gilfoyle.design.structural.facade.design.Computer</node>
+    <node x="175.0" y="0.0">com.gilfoyle.design.structural.facade.design.CPU</node>
+    <node x="166.5" y="377.0">com.gilfoyle.design.structural.facade.test.FacadeTest</node>
+    <node x="0.0" y="0.0">com.gilfoyle.design.structural.facade.design.Memory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.gilfoyle.design.structural.facade.design.Computer" target="com.gilfoyle.design.structural.facade.design.Disk" relationship="TO_ONE">
+      <point x="79.0" y="0.0" />
+      <point x="427.5" y="243.5" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="com.gilfoyle.design.structural.facade.test.FacadeTest" target="com.gilfoyle.design.structural.facade.design.Computer" relationship="CREATE">
+      <point x="0.0" y="-39.0" />
+      <point x="0.0" y="83.5" />
+    </edge>
+    <edge source="com.gilfoyle.design.structural.facade.design.Computer" target="com.gilfoyle.design.structural.facade.design.Memory" relationship="CREATE">
+      <point x="-79.0" y="15.0" />
+      <point x="62.5" y="258.5" />
+      <point x="-15.0" y="50.0" />
+    </edge>
+    <edge source="com.gilfoyle.design.structural.facade.design.Computer" target="com.gilfoyle.design.structural.facade.design.CPU" relationship="CREATE">
+      <point x="0.0" y="-83.5" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="com.gilfoyle.design.structural.facade.design.Computer" target="com.gilfoyle.design.structural.facade.design.Disk" relationship="CREATE">
+      <point x="79.0" y="15.0" />
+      <point x="442.5" y="258.5" />
+      <point x="15.0" y="50.0" />
+    </edge>
+    <edge source="com.gilfoyle.design.structural.facade.design.Computer" target="com.gilfoyle.design.structural.facade.design.CPU" relationship="TO_ONE">
+      <point x="15.0" y="-83.5" />
+      <point x="15.0" y="50.0" />
+    </edge>
+    <edge source="com.gilfoyle.design.structural.facade.design.Computer" target="com.gilfoyle.design.structural.facade.design.Memory" relationship="TO_ONE">
+      <point x="-79.0" y="0.0" />
+      <point x="77.5" y="243.5" />
+      <point x="0.0" y="50.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="252.5" y="227.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

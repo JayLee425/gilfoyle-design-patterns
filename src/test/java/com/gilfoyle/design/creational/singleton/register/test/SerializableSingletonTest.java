@@ -29,7 +29,7 @@ public class SerializableSingletonTest {
 			oos.close();
 			
 			
-			FileInputStream fis = new FileInputStream("SerializableSingleton,obj");
+			FileInputStream fis = new FileInputStream("SerializableSingleton.obj");
 			ObjectInputStream ois = new ObjectInputStream(fis);
 			
 			s1 = (SerializableSingleton) ois.readObject();

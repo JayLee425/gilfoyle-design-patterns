@@ -8,6 +8,11 @@ package com.gilfoyle.design.creational.factory.abstract_factory;
  */
 public class JavaCourseFactory extends AbstractCourseFactory{
 	@Override
+	public ICourse createCourse() {
+		return new JavaCourse();
+	}
+	
+	@Override
 	public INote createNote() {
 		init();
 		return new JavaNote();

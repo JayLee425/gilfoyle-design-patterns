@@ -17,6 +17,8 @@ public abstract class AbstractCourseFactory {
 		System.out.println("初始化基础数据");
 	}
 	
+	protected abstract ICourse createCourse();
+	
 	protected abstract INote createNote();
 	
 	protected abstract IVideo createVideo();

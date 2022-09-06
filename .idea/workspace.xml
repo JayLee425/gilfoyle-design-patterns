@@ -5,55 +5,108 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efea232b-3d1f-4871-8691-c9abe35b6116" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/creational/builder/example/LombokBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/creational/builder/example/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/creational/factory/abstract_factory/AbstractCourseFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/creational/factory/abstract_factory/Abstract_Factory.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/creational/factory/abstract_factory/ICourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/creational/factory/abstract_factory/INote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/creational/factory/abstract_factory/IVideo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/creational/factory/abstract_factory/JavaCourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/creational/factory/abstract_factory/JavaCourseFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/creational/factory/abstract_factory/JavaNote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/creational/factory/abstract_factory/JavaVideo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/creational/factory/abstract_factory/PythonCourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/creational/factory/abstract_factory/PythonCourseFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/creational/factory/abstract_factory/PythonNote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/creational/factory/abstract_factory/PythonVideo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/creational/factory/factory_method/Factory_Method.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/creational/factory/factory_method/ICourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/creational/factory/factory_method/ICourseFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/creational/factory/factory_method/JavaCourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/creational/factory/factory_method/JavaCourseFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/creational/factory/factory_method/PythonCourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/creational/factory/factory_method/PythonCourseFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/creational/factory/simple/CourseFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/creational/factory/simple/ICourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/creational/factory/simple/JavaCourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/creational/factory/simple/PythonCourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/creational/factory/simple/SimpleFactory.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/creational/prototype/deep/DeepPrototype.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/creational/prototype/shallow/ShallowPrototype.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/creational/singleton/cas/CasSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/structural/Structural_Design_Patterns.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/gilfoyle/design/creational/builder/test/BuilderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/gilfoyle/design/creational/builder/test/LombokBeanBuilderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/gilfoyle/design/creational/factory/abstract_factory/test/AbstractFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/gilfoyle/design/creational/factory/factory_method/test/FactoryMethodTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/gilfoyle/design/creational/factory/simple/test/SimpleFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/gilfoyle/design/creational/prototype/test/deep/DeepPrototypeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/gilfoyle/design/creational/prototype/test/shallow/ShallowPrototypeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/gilfoyle/design/creational/singleton/cas/test/CasSingletonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/gilfoyle/design/creational/singleton/cas/test/CasTestThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README_CN.md" beforeDir="false" afterPath="$PROJECT_DIR$/README_CN.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/creational/abstract_factory/Abstract_Factory.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/Behavioral_Design_Patterns.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/creational/builder/Builder.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/creational/builder/Builder.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/creational/factory_method/Factory_Method.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/creational/Creational_Design_Patterns.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/creational/prototype/Prototype.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/creational/prototype/Prototype.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/creational/singleton/Singleton.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/creational/singleton/Singleton.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/creational/singleton/register/EnumSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/creational/singleton/register/enums/EnumSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/gilfoyle/design/creational/singleton/register/test/EnumSingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gilfoyle/design/creational/singleton/register/enums/EnumSingletonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/structural/adapter/classs/AdapterClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/structural/adapter/classs/OldSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/structural/adapter/classs/TargetAble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/structural/adapter/interfaces/AbstractInterfaceFunc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/structural/adapter/interfaces/FunctionSub2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/structural/adapter/interfaces/InterfaceFunc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/structural/adapter/interfaces/InterfaceFuncSub1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/structural/adapter/object/Source.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/structural/adapter/object/TargetObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/structural/adapter/object/WrapperObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/structural/composite/Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/structural/composite/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/structural/decorator/design/Decorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/structural/decorator/design/Source.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/structural/decorator/design/SourceInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/structural/facade/design/CPU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/structural/facade/design/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/structural/facade/design/Disk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/structural/facade/design/Memory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/structural/flyweight/ConnectionPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/structural/设计模式---结构设计模式.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gilfoyle/design/structural/adapter/classs/test/ClassAdapterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gilfoyle/design/structural/adapter/interfaces/InterfaceAdapterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gilfoyle/design/structural/adapter/object/test/ObjectAdapterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gilfoyle/design/structural/decorator/test/DecoratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gilfoyle/design/structural/facade/test/FacadeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/creational/Creational_Design_Patterns.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/creational/Creational_Design_Patterns.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/creational/factory/abstract_factory/AbstractCourseFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/creational/factory/abstract_factory/AbstractCourseFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/creational/factory/abstract_factory/JavaCourseFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/creational/factory/abstract_factory/JavaCourseFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/creational/factory/abstract_factory/PythonCourseFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/creational/factory/abstract_factory/PythonCourseFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/structural/Structural_Design_Patterns.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/structural/Structural_Design_Patterns.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/structural/adapter/Adapter.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/structural/adapter/Adapter.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/structural/bridge/Bridge.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/structural/bridge/Bridge.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/structural/composite/Composite.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/structural/composite/Composite.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/structural/decorator/Decorator.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/structural/decorator/Decorator.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/structural/facade/Facade.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/structural/facade/Facade.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/structural/flyweight/Flyweight.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/structural/flyweight/Flyweight.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/structural/proxy/Proxy.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/structural/proxy/Proxy.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/gilfoyle/design/creational/singleton/register/test/SerializableSingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gilfoyle/design/creational/singleton/register/test/SerializableSingletonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gilfoyle/design/creational/builder/example/LombokBean$LombokBeanBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gilfoyle/design/creational/builder/example/LombokBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gilfoyle/design/creational/builder/example/Person$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gilfoyle/design/creational/builder/example/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gilfoyle/design/creational/factory/abstract_factory/AbstractCourseFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gilfoyle/design/creational/factory/abstract_factory/ICourse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gilfoyle/design/creational/factory/abstract_factory/INote.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gilfoyle/design/creational/factory/abstract_factory/IVideo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gilfoyle/design/creational/factory/abstract_factory/JavaCourse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gilfoyle/design/creational/factory/abstract_factory/JavaCourseFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gilfoyle/design/creational/factory/abstract_factory/JavaNote.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gilfoyle/design/creational/factory/abstract_factory/JavaVideo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gilfoyle/design/creational/factory/abstract_factory/PythonCourse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gilfoyle/design/creational/factory/abstract_factory/PythonCourseFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gilfoyle/design/creational/factory/abstract_factory/PythonNote.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gilfoyle/design/creational/factory/abstract_factory/PythonVideo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gilfoyle/design/creational/factory/factory_method/ICourse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gilfoyle/design/creational/factory/factory_method/ICourseFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gilfoyle/design/creational/factory/factory_method/JavaCourse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gilfoyle/design/creational/factory/factory_method/JavaCourseFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gilfoyle/design/creational/factory/factory_method/PythonCourse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gilfoyle/design/creational/factory/factory_method/PythonCourseFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gilfoyle/design/creational/factory/simple/CourseFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gilfoyle/design/creational/factory/simple/ICourse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gilfoyle/design/creational/factory/simple/JavaCourse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gilfoyle/design/creational/factory/simple/PythonCourse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gilfoyle/design/creational/prototype/deep/DeepPrototype.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gilfoyle/design/creational/prototype/shallow/ShallowPrototype.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gilfoyle/design/creational/singleton/cas/CasSingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gilfoyle/design/creational/singleton/hungry/HungrySingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gilfoyle/design/creational/singleton/hungry/HungryStaticSingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gilfoyle/design/creational/singleton/lazy/LazyDoubleCheckSingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gilfoyle/design/creational/singleton/lazy/LazySimpleSingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gilfoyle/design/creational/singleton/lazy/LazyStaticInnerClassSingleton$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gilfoyle/design/creational/singleton/lazy/LazyStaticInnerClassSingleton$LazyHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gilfoyle/design/creational/singleton/lazy/LazyStaticInnerClassSingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gilfoyle/design/creational/singleton/lazy/LazySynchronizedSimpleSingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gilfoyle/design/creational/singleton/register/ContainerSingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gilfoyle/design/creational/singleton/register/enums/EnumSingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gilfoyle/design/creational/singleton/serializable/SerializableSingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gilfoyle/design/creational/singleton/threadlocal/ThreadLocalSingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gilfoyle/design/creational/builder/test/BuilderTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gilfoyle/design/creational/builder/test/LombokBeanBuilderTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gilfoyle/design/creational/factory/abstract_factory/test/AbstractFactoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gilfoyle/design/creational/factory/factory_method/test/FactoryMethodTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gilfoyle/design/creational/factory/simple/test/SimpleFactoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gilfoyle/design/creational/prototype/test/deep/DeepPrototypeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gilfoyle/design/creational/prototype/test/shallow/ShallowPrototypeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gilfoyle/design/creational/singleton/cas/test/CasSingletonTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gilfoyle/design/creational/singleton/cas/test/CasTestThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gilfoyle/design/creational/singleton/lazy/test/ExecutionerDoubleCheckThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gilfoyle/design/creational/singleton/lazy/test/ExecutionerSynchronizedThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gilfoyle/design/creational/singleton/lazy/test/ExecutionerThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gilfoyle/design/creational/singleton/lazy/test/LazyDoubleCheckSingletonTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gilfoyle/design/creational/singleton/lazy/test/LazySimpleSingletonTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gilfoyle/design/creational/singleton/lazy/test/LazySynchronizedSimpleSingletonTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gilfoyle/design/creational/singleton/lazy/test/ReflectionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gilfoyle/design/creational/singleton/register/enums/EnumSingletonTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gilfoyle/design/creational/singleton/register/test/ContainerSingletonTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gilfoyle/design/creational/singleton/register/test/Project.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gilfoyle/design/creational/singleton/register/test/SerializableSingletonTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gilfoyle/design/creational/singleton/threadlocal/test/ThreadLocalSingletonTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +140,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$localRepository$/org/projectlombok/lombok/1.18.24/lombok-1.18.24-sources.jar!/lombok/experimental/Accessors.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/corretto-17.0.3/Contents/Home/lib/src.zip!/java.base/java/util/Objects.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/gilfoyle/design/structural/Structural_Design_Patterns.md" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/README_CN.md" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
   </component>
   <component name="MavenImportPreferences">
@@ -110,35 +164,35 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last.edited.regexp" value="Sample Text" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/creational/factory/abstract_factory" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/structural" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="settings.editor.selected.configurable" value="yiiguxing.plugin.translate" />
   </component>
   <component name="ReaderModeSettings">
     <option name="showRenderedDocs" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/structural" />
       <recent name="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/creational/factory/abstract_factory" />
       <recent name="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/creational/factory/factory_method" />
       <recent name="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/structural/proxy" />
       <recent name="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/structural/flyweight" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/structural/facade" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/creational/factory/simple" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.gilfoyle.design.structural.composite.test" />
       <recent name="com.gilfoyle.design.creational.builder.example" />
       <recent name="com.gilfoyle.design.creational.factory" />
       <recent name="com.gilfoyle.design.creational.singleton.register.enums" />
       <recent name="com.gilfoyle.design.creational.singleton.register" />
-      <recent name="com.gilfoyle.design.creational.singleton.enums.test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.gilfoyle.design.creational.prototype.test.deep" />
@@ -148,14 +202,14 @@
       <recent name="com.gilfoyle.design.creational.factory.simple" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BuilderTest">
-    <configuration name="AbstractFactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gilfoyle.design.creational.factory.abstract_factory.test.AbstractFactoryTest" />
+  <component name="RunManager" selected="Application.Tree">
+    <configuration name="DecoratorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gilfoyle.design.structural.decorator.test.DecoratorTest" />
       <module name="gilfoyle-design-patterns" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gilfoyle.design.creational.factory.abstract_factory.test.*" />
+          <option name="PATTERN" value="com.gilfoyle.design.structural.decorator.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,13 +217,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BuilderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gilfoyle.design.creational.builder.test.BuilderTest" />
+    <configuration name="FacadeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gilfoyle.design.structural.facade.test.FacadeTest" />
       <module name="gilfoyle-design-patterns" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gilfoyle.design.creational.builder.test.*" />
+          <option name="PATTERN" value="com.gilfoyle.design.structural.facade.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,13 +231,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeepPrototypeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gilfoyle.design.creational.prototype.test.deep.DeepPrototypeTest" />
+    <configuration name="InterfaceAdapterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gilfoyle.design.structural.adapter.interfaces.InterfaceAdapterTest" />
       <module name="gilfoyle-design-patterns" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gilfoyle.design.creational.prototype.test.deep.*" />
+          <option name="PATTERN" value="com.gilfoyle.design.structural.adapter.interfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -191,13 +245,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LombokBeanBuilderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gilfoyle.design.creational.builder.test.LombokBeanBuilderTest" />
+    <configuration name="Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gilfoyle.design.structural.composite.Tree" />
       <module name="gilfoyle-design-patterns" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gilfoyle.design.creational.builder.test.*" />
+          <option name="PATTERN" value="com.gilfoyle.design.structural.composite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,13 +259,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShallowPrototypeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gilfoyle.design.creational.prototype.test.shallow.ShallowPrototypeTest" />
+    <configuration name="TreeCompositeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gilfoyle.design.structural.composite.test.TreeCompositeTest" />
       <module name="gilfoyle-design-patterns" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gilfoyle.design.creational.prototype.test.shallow.*" />
+          <option name="PATTERN" value="com.gilfoyle.design.structural.composite.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -266,11 +320,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BuilderTest" />
-        <item itemvalue="Application.LombokBeanBuilderTest" />
-        <item itemvalue="Application.DeepPrototypeTest" />
-        <item itemvalue="Application.ShallowPrototypeTest" />
-        <item itemvalue="Application.AbstractFactoryTest" />
+        <item itemvalue="Application.Tree" />
+        <item itemvalue="Application.TreeCompositeTest" />
+        <item itemvalue="Application.FacadeTest" />
+        <item itemvalue="Application.DecoratorTest" />
+        <item itemvalue="Application.InterfaceAdapterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -289,7 +343,9 @@
       <workItem from="1657218559977" duration="489000" />
       <workItem from="1657219460347" duration="4810000" />
       <workItem from="1657249169826" duration="13519000" />
-      <workItem from="1658049399230" duration="2707000" />
+      <workItem from="1658049399230" duration="17682000" />
+      <workItem from="1662472465048" duration="2857000" />
+      <workItem from="1662477038222" duration="6189000" />
     </task>
     <servers />
   </component>

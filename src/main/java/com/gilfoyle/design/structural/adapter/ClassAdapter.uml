@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.gilfoyle.design.structural.adapter.classs.AdapterClass</OriginalElement>
+  <nodes>
+    <node x="165.0" y="0.0">com.gilfoyle.design.structural.adapter.classs.OldSource</node>
+    <node x="0.0" y="0.0">com.gilfoyle.design.structural.adapter.classs.TargetAble</node>
+    <node x="71.0" y="80.0">com.gilfoyle.design.structural.adapter.classs.AdapterClass</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.gilfoyle.design.structural.adapter.classs.AdapterClass" target="com.gilfoyle.design.structural.adapter.classs.OldSource" relationship="GENERALIZATION">
+      <point x="41.25" y="-15.0" />
+      <point x="194.75" y="55.0" />
+      <point x="234.5" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.gilfoyle.design.structural.adapter.classs.AdapterClass" target="com.gilfoyle.design.structural.adapter.classs.TargetAble" relationship="REALIZATION">
+      <point x="-41.25" y="-15.0" />
+      <point x="112.25" y="55.0" />
+      <point x="72.5" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="152.0" y="55.0" />
+  <SelectedNodes>
+    <node>com.gilfoyle.design.structural.adapter.classs.AdapterClass</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
