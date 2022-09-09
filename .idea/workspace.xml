@@ -5,23 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efea232b-3d1f-4871-8691-c9abe35b6116" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/strategy/code/AbstractCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/strategy/code/CalculateFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/strategy/code/ICalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/strategy/code/Minus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/strategy/code/Multiply.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/strategy/code/Plus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/template_method/code/AbstractCalculateTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/template_method/code/Divide.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/template_method/code/Minus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/template_method/code/Multiply.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/template_method/code/Plus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/设计模式--行为设计模式.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/gilfoyle/design/behavioral/strategy/test/StrategyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/gilfoyle/design/behavioral/template_method/test/TemplateMethodTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/Behavioral_Design_Patterns.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/Behavioral_Design_Patterns.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/strategy/Strategy.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/strategy/Strategy.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/structural/Structural_Design_Patterns.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/structural/Structural_Design_Patterns.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/observer/code/AbstractSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/observer/code/MySubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/observer/code/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/observer/code/ObserverOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/observer/code/ObserverTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/observer/code/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gilfoyle/design/behavioral/observer/test/ObserverTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/chain_of_responsibility/Chain_Of_Responsibility.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/chain_of_responsibility/Chain_Of_Responsibility.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/observer/Observer.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/observer/Observer.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,14 +105,14 @@
       <recent name="com.gilfoyle.design.creational.factory" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gilfoyle.design.behavioral.observer.code" />
       <recent name="com.gilfoyle.design.creational.prototype.test.deep" />
       <recent name="com.gilfoyle.design.creational.prototype.deep" />
       <recent name="com.gilfoyle.design.creational.factory.abstract_factory" />
       <recent name="com.gilfoyle.design.creational.factory.factory_method" />
-      <recent name="com.gilfoyle.design.creational.factory.simple" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TemplateMethodTest">
+  <component name="RunManager" selected="Application.ObserverTest">
     <configuration name="BridgeClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gilfoyle.design.structural.bridge.BridgeClient" />
       <module name="gilfoyle-design-patterns" />
@@ -149,13 +141,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CglibDynProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gilfoyle.design.structural.proxy.cglib.test.CglibDynProxyTest" />
+    <configuration name="ObserverTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gilfoyle.design.behavioral.observer.test.ObserverTest" />
       <module name="gilfoyle-design-patterns" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gilfoyle.design.structural.proxy.cglib.test.*" />
+          <option name="PATTERN" value="com.gilfoyle.design.behavioral.observer.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -238,11 +230,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ObserverTest" />
         <item itemvalue="Application.TemplateMethodTest" />
         <item itemvalue="Application.StrategyTest" />
         <item itemvalue="Application.BridgeClient" />
         <item itemvalue="Application.BridgeTest" />
-        <item itemvalue="Application.CglibDynProxyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -265,7 +257,7 @@
       <workItem from="1662472465048" duration="2857000" />
       <workItem from="1662477038222" duration="9242000" />
       <workItem from="1662697257044" duration="1315000" />
-      <workItem from="1662698596612" duration="8845000" />
+      <workItem from="1662698596612" duration="11185000" />
     </task>
     <servers />
   </component>
