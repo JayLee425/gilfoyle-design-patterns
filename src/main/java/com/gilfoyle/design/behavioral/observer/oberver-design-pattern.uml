@@ -13,27 +13,19 @@
   <notes />
   <edges>
     <edge source="com.gilfoyle.design.behavioral.observer.code.AbstractSubject" target="com.gilfoyle.design.behavioral.observer.code.Observer" relationship="DEPENDENCY">
-      <point x="80.625" y="-72.5" />
-      <point x="188.125" y="252.0" />
-      <point x="251.39215686274508" y="252.0" />
-      <point x="251.39215686274508" y="85.0" />
-      <point x="201.08333333333334" y="85.0" />
-      <point x="201.08333333333334" y="75.0" />
-      <point x="196.89215686274508" y="75.0" />
-      <point x="0.0" y="27.5" />
+      <point x="-81.108" y="-72.5" />
+      <point x="26.392" y="80.0" />
+      <point x="196.892" y="80.0" />
+      <point x="-1.5686274508652787E-4" y="27.5" />
     </edge>
     <edge source="com.gilfoyle.design.behavioral.observer.code.ObserverTwo" target="com.gilfoyle.design.behavioral.observer.code.Observer" relationship="REALIZATION">
-      <point x="0.0" y="-39.0" />
-      <point x="522.8921568627451" y="85.0" />
-      <point x="436.8333333333333" y="85.0" />
-      <point x="436.8333333333333" y="75.0" />
-      <point x="242.5588235294117" y="75.0" />
-      <point x="45.66666666666663" y="27.5" />
+      <point x="-1.5686274502968445E-4" y="-39.0" />
+      <point x="522.892" y="101.0" />
+      <point x="263.5" y="101.0" />
+      <point x="66.60784313725492" y="27.5" />
     </edge>
     <edge source="com.gilfoyle.design.behavioral.observer.code.AbstractSubject" target="com.gilfoyle.design.behavioral.observer.code.Subject" relationship="REALIZATION">
-      <point x="26.875" y="-72.5" />
-      <point x="134.375" y="252.0" />
-      <point x="142.39215686274508" y="252.0" />
+      <point x="34.89215686274508" y="-72.5" />
       <point x="0.0" y="60.5" />
     </edge>
     <edge source="com.gilfoyle.design.behavioral.observer.code.MySubject" target="com.gilfoyle.design.behavioral.observer.code.AbstractSubject" relationship="GENERALIZATION">
@@ -41,46 +33,34 @@
       <point x="0.0" y="72.5" />
     </edge>
     <edge source="com.gilfoyle.design.behavioral.observer.code.ObserverOne" target="com.gilfoyle.design.behavioral.observer.code.Observer" relationship="REALIZATION">
-      <point x="0.0" y="-39.0" />
-      <point x="342.3921568627451" y="85.0" />
-      <point x="436.8333333333333" y="85.0" />
-      <point x="436.8333333333333" y="75.0" />
-      <point x="242.5588235294117" y="75.0" />
-      <point x="45.66666666666663" y="27.5" />
+      <point x="-1.5686274508652787E-4" y="-39.0" />
+      <point x="342.392" y="101.0" />
+      <point x="263.5" y="101.0" />
+      <point x="66.60784313725492" y="27.5" />
     </edge>
     <edge source="com.gilfoyle.design.behavioral.observer.code.Subject" target="com.gilfoyle.design.behavioral.observer.code.Observer" relationship="DEPENDENCY">
-      <point x="0.0" y="-60.5" />
-      <point x="142.39215686274508" y="85.0" />
-      <point x="201.08333333333334" y="85.0" />
-      <point x="201.08333333333334" y="75.0" />
-      <point x="196.89215686274508" y="75.0" />
-      <point x="0.0" y="27.5" />
+      <point x="-1.5686274508652787E-4" y="-60.5" />
+      <point x="142.392" y="80.0" />
+      <point x="196.892" y="80.0" />
+      <point x="-1.5686274508652787E-4" y="27.5" />
     </edge>
     <edge source="com.gilfoyle.design.behavioral.observer.code.AbstractSubject" target="com.gilfoyle.design.behavioral.observer.code.Observer" relationship="TO_ONE">
-      <point x="-80.625" y="-72.5" />
-      <point x="26.875" y="252.0" />
-      <point x="22.392156862745082" y="252.0" />
-      <point x="22.392156862745082" y="85.0" />
-      <point x="27.892156862745082" y="85.0" />
-      <point x="27.892156862745082" y="75.0" />
-      <point x="151.2254901960784" y="75.0" />
-      <point x="-45.666666666666686" y="27.5" />
+      <point x="0.0" y="-72.5" />
+      <point x="107.5" y="252.0" />
+      <point x="11.392" y="252.0" />
+      <point x="11.392" y="27.5" />
+      <point x="-68.50015686274509" y="0.0" />
     </edge>
     <edge source="com.gilfoyle.design.behavioral.observer.code.AbstractSubject" target="com.gilfoyle.design.behavioral.observer.code.Observer" relationship="TO_MANY">
-      <point x="-26.875" y="-72.5" />
-      <point x="80.625" y="252.0" />
-      <point x="33.39215686274508" y="252.0" />
-      <point x="33.39215686274508" y="85.0" />
-      <point x="27.892156862745082" y="85.0" />
-      <point x="27.892156862745082" y="75.0" />
-      <point x="151.2254901960784" y="75.0" />
-      <point x="-45.666666666666686" y="27.5" />
+      <point x="0.0" y="-72.5" />
+      <point x="107.5" y="252.0" />
+      <point x="11.392" y="252.0" />
+      <point x="11.392" y="27.5" />
+      <point x="-68.50015686274509" y="0.0" />
     </edge>
   </edges>
   <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="325.5" y="275.5" />
-  <SelectedNodes>
-    <node>com.gilfoyle.design.behavioral.observer.code.MySubject</node>
-  </SelectedNodes>
+  <SelectedNodes />
   <Categories>
     <Category>Constructors</Category>
     <Category>Fields</Category>

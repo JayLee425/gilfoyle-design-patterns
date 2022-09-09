@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.gilfoyle.design.behavioral.iterator.IteratorClient</OriginalElement>
+  <nodes>
+    <node x="0.0" y="770.0">com.gilfoyle.design.behavioral.iterator.IteratorClient</node>
+    <node x="85.49444444444444" y="332.0">com.gilfoyle.design.behavioral.iterator.MyIterator</node>
+    <node x="55.24444444444444" y="0.0">com.gilfoyle.design.behavioral.iterator.Iterator</node>
+    <node x="74.73333333333335" y="171.0">com.gilfoyle.design.behavioral.iterator.Collection</node>
+    <node x="22.33333333333333" y="573.0">com.gilfoyle.design.behavioral.iterator.MyCollection</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.gilfoyle.design.behavioral.iterator.MyIterator" target="com.gilfoyle.design.behavioral.iterator.Iterator" relationship="REALIZATION">
+      <point x="65.66666666666669" y="-94.5" />
+      <point x="249.66111111111113" y="301.0" />
+      <point x="280.8083333333334" y="301.0" />
+      <point x="280.8083333333334" y="151.0" />
+      <point x="181.24444444444444" y="151.0" />
+      <point x="42.0" y="60.5" />
+    </edge>
+    <edge source="com.gilfoyle.design.behavioral.iterator.MyIterator" target="com.gilfoyle.design.behavioral.iterator.Collection" relationship="TO_ONE">
+      <point x="-65.66666666666669" y="-94.5" />
+      <point x="118.32777777777775" y="311.0" />
+      <point x="153.73333333333335" y="311.0" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="com.gilfoyle.design.behavioral.iterator.IteratorClient" target="com.gilfoyle.design.behavioral.iterator.MyCollection" relationship="CREATE">
+      <point x="16.83333333333333" y="-39.0" />
+      <point x="0.0" y="72.5" />
+    </edge>
+    <edge source="com.gilfoyle.design.behavioral.iterator.MyCollection" target="com.gilfoyle.design.behavioral.iterator.Collection" relationship="REALIZATION">
+      <point x="0.0" y="-72.5" />
+      <point x="102.83333333333333" y="547.0" />
+      <point x="58.21944444444446" y="547.0" />
+      <point x="58.21944444444446" y="311.0" />
+      <point x="101.06666666666669" y="311.0" />
+      <point x="-52.66666666666666" y="49.5" />
+    </edge>
+    <edge source="com.gilfoyle.design.behavioral.iterator.Collection" target="com.gilfoyle.design.behavioral.iterator.Iterator" relationship="DEPENDENCY">
+      <point x="0.0" y="-49.5" />
+      <point x="153.73333333333335" y="151.0" />
+      <point x="46.4111111111111" y="151.0" />
+      <point x="46.4111111111111" y="141.0" />
+      <point x="97.24444444444444" y="141.0" />
+      <point x="-42.0" y="60.5" />
+    </edge>
+    <edge source="com.gilfoyle.design.behavioral.iterator.MyCollection" target="com.gilfoyle.design.behavioral.iterator.Iterator" relationship="DEPENDENCY">
+      <point x="-53.66666666666666" y="-72.5" />
+      <point x="49.16666666666667" y="547.0" />
+      <point x="43.902777777777786" y="547.0" />
+      <point x="43.902777777777786" y="151.0" />
+      <point x="46.4111111111111" y="151.0" />
+      <point x="46.4111111111111" y="141.0" />
+      <point x="97.24444444444444" y="141.0" />
+      <point x="-42.0" y="60.5" />
+    </edge>
+    <edge source="com.gilfoyle.design.behavioral.iterator.IteratorClient" target="com.gilfoyle.design.behavioral.iterator.Collection" relationship="DEPENDENCY">
+      <point x="-81.16666666666667" y="-39.0" />
+      <point x="4.833333333333329" y="220.5" />
+      <point x="-79.0" y="0.0" />
+    </edge>
+    <edge source="com.gilfoyle.design.behavioral.iterator.IteratorClient" target="com.gilfoyle.design.behavioral.iterator.Iterator" relationship="DEPENDENCY">
+      <point x="-86.0" y="0.0" />
+      <point x="-20.16666666666667" y="809.0" />
+      <point x="-20.16666666666667" y="60.5" />
+      <point x="-84.0" y="0.0" />
+    </edge>
+    <edge source="com.gilfoyle.design.behavioral.iterator.MyCollection" target="com.gilfoyle.design.behavioral.iterator.MyIterator" relationship="CREATE">
+      <point x="53.66666666666666" y="-72.5" />
+      <point x="156.5" y="547.0" />
+      <point x="183.99444444444444" y="547.0" />
+      <point x="0.0" y="94.5" />
+    </edge>
+    <edge source="com.gilfoyle.design.behavioral.iterator.MyIterator" target="com.gilfoyle.design.behavioral.iterator.Collection" relationship="DEPENDENCY">
+      <point x="0.0" y="-94.5" />
+      <point x="183.99444444444444" y="311.0" />
+      <point x="249.3027777777778" y="311.0" />
+      <point x="249.3027777777778" y="291.0" />
+      <point x="206.4" y="291.0" />
+      <point x="52.66666666666666" y="49.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.1518433179723502" showDependencies="true" x="146.5" y="219.05933762649494" />
+  <SelectedNodes>
+    <node>com.gilfoyle.design.behavioral.iterator.IteratorClient</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

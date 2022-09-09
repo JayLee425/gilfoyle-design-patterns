@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.gilfoyle.design.behavioral.chain_of_responsibility.simple.code.DeptManagerHandler</OriginalElement>
+  <nodes>
+    <node x="0.0" y="283.0">com.gilfoyle.design.behavioral.chain_of_responsibility.simple.code.LeaveRequest.LeaveRequestBuilder</node>
+    <node x="216.99999999999994" y="524.0">com.gilfoyle.design.behavioral.chain_of_responsibility.simple.code.DeptManagerHandler</node>
+    <node x="326.94999999999993" y="0.0">com.gilfoyle.design.behavioral.chain_of_responsibility.simple.code.LeaveRequest</node>
+    <node x="446.24999999999994" y="293.5">com.gilfoyle.design.behavioral.chain_of_responsibility.simple.code.LeaveHandler</node>
+    <node x="523.0" y="524.0">com.gilfoyle.design.behavioral.chain_of_responsibility.simple.code.GManagerHandler</node>
+    <node x="829.0" y="524.0">com.gilfoyle.design.behavioral.chain_of_responsibility.simple.code.DirectLeaderHandler</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.gilfoyle.design.behavioral.chain_of_responsibility.simple.code.LeaveRequest.LeaveRequestBuilder" target="com.gilfoyle.design.behavioral.chain_of_responsibility.simple.code.LeaveRequest" relationship="INNER_CLASS">
+      <point x="0.0" y="-94.5" />
+      <point x="139.0" y="253.0" />
+      <point x="387.69999999999993" y="253.0" />
+      <point x="-60.75" y="116.5" />
+    </edge>
+    <edge source="com.gilfoyle.design.behavioral.chain_of_responsibility.simple.code.LeaveHandler" target="com.gilfoyle.design.behavioral.chain_of_responsibility.simple.code.LeaveRequest" relationship="DEPENDENCY">
+      <point x="0.0" y="-84.0" />
+      <point x="589.25" y="263.0" />
+      <point x="666.0" y="263.0" />
+      <point x="666.0" y="253.0" />
+      <point x="509.19999999999993" y="253.0" />
+      <point x="60.75" y="116.5" />
+    </edge>
+    <edge source="com.gilfoyle.design.behavioral.chain_of_responsibility.simple.code.DeptManagerHandler" target="com.gilfoyle.design.behavioral.chain_of_responsibility.simple.code.LeaveHandler" relationship="GENERALIZATION">
+      <point x="93.75" y="-39.0" />
+      <point x="-135.50000000000006" y="84.0" />
+    </edge>
+    <edge source="com.gilfoyle.design.behavioral.chain_of_responsibility.simple.code.GManagerHandler" target="com.gilfoyle.design.behavioral.chain_of_responsibility.simple.code.LeaveRequest" relationship="DEPENDENCY">
+      <point x="71.5" y="-39.0" />
+      <point x="737.5" y="493.0" />
+      <point x="742.75" y="493.0" />
+      <point x="742.75" y="263.0" />
+      <point x="666.0" y="263.0" />
+      <point x="666.0" y="253.0" />
+      <point x="509.19999999999993" y="253.0" />
+      <point x="60.75" y="116.5" />
+    </edge>
+    <edge source="com.gilfoyle.design.behavioral.chain_of_responsibility.simple.code.GManagerHandler" target="com.gilfoyle.design.behavioral.chain_of_responsibility.simple.code.LeaveHandler" relationship="GENERALIZATION">
+      <point x="-71.5" y="-39.0" />
+      <point x="594.5" y="503.0" />
+      <point x="589.25" y="503.0" />
+      <point x="0.0" y="84.0" />
+    </edge>
+    <edge source="com.gilfoyle.design.behavioral.chain_of_responsibility.simple.code.DirectLeaderHandler" target="com.gilfoyle.design.behavioral.chain_of_responsibility.simple.code.LeaveRequest" relationship="DEPENDENCY">
+      <point x="71.5" y="-39.0" />
+      <point x="1043.5" y="263.0" />
+      <point x="666.0" y="263.0" />
+      <point x="666.0" y="253.0" />
+      <point x="509.19999999999993" y="253.0" />
+      <point x="60.75" y="116.5" />
+    </edge>
+    <edge source="com.gilfoyle.design.behavioral.chain_of_responsibility.simple.code.DirectLeaderHandler" target="com.gilfoyle.design.behavioral.chain_of_responsibility.simple.code.LeaveHandler" relationship="GENERALIZATION">
+      <point x="-71.5" y="-39.0" />
+      <point x="900.5" y="503.0" />
+      <point x="589.25" y="503.0" />
+      <point x="0.0" y="84.0" />
+    </edge>
+    <edge source="com.gilfoyle.design.behavioral.chain_of_responsibility.simple.code.DeptManagerHandler" target="com.gilfoyle.design.behavioral.chain_of_responsibility.simple.code.LeaveRequest" relationship="DEPENDENCY">
+      <point x="68.75" y="-39.0" />
+      <point x="-19.69999999999999" y="116.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.9066079295154185" showDependencies="true" x="557.5" y="301.0" />
+  <SelectedNodes>
+    <node>com.gilfoyle.design.behavioral.chain_of_responsibility.simple.code.DeptManagerHandler</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.gilfoyle.design.behavioral.command.code.Receiver</OriginalElement>
+  <nodes>
+    <node x="0.0" y="128.0">com.gilfoyle.design.behavioral.command.code.Invoker</node>
+    <node x="204.0" y="128.0">com.gilfoyle.design.behavioral.command.code.MyCommand</node>
+    <node x="227.86111111111111" y="0.0">com.gilfoyle.design.behavioral.command.code.Receiver</node>
+    <node x="26.666666666666686" y="11.5">com.gilfoyle.design.behavioral.command.code.Command</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.gilfoyle.design.behavioral.command.code.MyCommand" target="com.gilfoyle.design.behavioral.command.code.Receiver" relationship="DEPENDENCY">
+      <point x="69.0" y="-50.5" />
+      <point x="376.5" y="108.0" />
+      <point x="327.6111111111111" y="108.0" />
+      <point x="33.25" y="39.0" />
+    </edge>
+    <edge source="com.gilfoyle.design.behavioral.command.code.MyCommand" target="com.gilfoyle.design.behavioral.command.code.Command" relationship="REALIZATION">
+      <point x="-69.0" y="-50.5" />
+      <point x="238.5" y="98.0" />
+      <point x="139.16666666666669" y="98.0" />
+      <point x="45.0" y="27.5" />
+    </edge>
+    <edge source="com.gilfoyle.design.behavioral.command.code.Invoker" target="com.gilfoyle.design.behavioral.command.code.Command" relationship="TO_ONE">
+      <point x="-46.0" y="-50.5" />
+      <point x="46.0" y="108.0" />
+      <point x="49.166666666666686" y="108.0" />
+      <point x="-45.0" y="27.5" />
+    </edge>
+    <edge source="com.gilfoyle.design.behavioral.command.code.MyCommand" target="com.gilfoyle.design.behavioral.command.code.Receiver" relationship="TO_ONE">
+      <point x="0.0" y="-50.5" />
+      <point x="307.5" y="108.0" />
+      <point x="261.1111111111111" y="108.0" />
+      <point x="-33.25" y="39.0" />
+    </edge>
+    <edge source="com.gilfoyle.design.behavioral.command.code.Invoker" target="com.gilfoyle.design.behavioral.command.code.Command" relationship="DEPENDENCY">
+      <point x="46.0" y="-50.5" />
+      <point x="138.0" y="108.0" />
+      <point x="94.16666666666669" y="108.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="205.5" y="114.5" />
+  <SelectedNodes>
+    <node>com.gilfoyle.design.behavioral.command.code.Receiver</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

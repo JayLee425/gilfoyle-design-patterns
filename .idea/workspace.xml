@@ -5,15 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efea232b-3d1f-4871-8691-c9abe35b6116" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/observer/code/AbstractSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/observer/code/MySubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/observer/code/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/observer/code/ObserverOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/observer/code/ObserverTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/observer/code/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/gilfoyle/design/behavioral/observer/test/ObserverTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/chain_of_responsibility/code/AbstractHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/chain_of_responsibility/code/CheckBlackFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/chain_of_responsibility/code/CheckParamsFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/chain_of_responsibility/code/CheckRuleFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/chain_of_responsibility/code/CheckSecurityFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/chain_of_responsibility/code/FunctionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/chain_of_responsibility/code/tools/ChainPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/chain_of_responsibility/simple/code/DeptManagerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/chain_of_responsibility/simple/code/DirectLeaderHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/chain_of_responsibility/simple/code/GManagerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/chain_of_responsibility/simple/code/LeaveHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/chain_of_responsibility/simple/code/LeaveRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/command/code/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/command/code/Invoker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/command/code/MyCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/command/code/Receiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gilfoyle/design/behavioral/chain_of_responsibility/simple/test/Leave_ChainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gilfoyle/design/behavioral/command/test/InvokerCommandTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/chain_of_responsibility/Chain_Of_Responsibility.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/chain_of_responsibility/Chain_Of_Responsibility.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/observer/Observer.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/observer/Observer.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/command/Command.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/command/Command.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/observer/oberver.uml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +95,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="ReaderModeSettings">
     <option name="showRenderedDocs" value="false" />
@@ -98,11 +112,11 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/creational/factory/simple" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.gilfoyle.design.behavioral.chain_of_responsibility.simple" />
       <recent name="com.gilfoyle.design.structural.bridge" />
       <recent name="com.gilfoyle.design.structural.proxy.cglib" />
       <recent name="com.gilfoyle.design.structural.composite.test" />
       <recent name="com.gilfoyle.design.creational.builder.example" />
-      <recent name="com.gilfoyle.design.creational.factory" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.gilfoyle.design.behavioral.observer.code" />
@@ -112,14 +126,14 @@
       <recent name="com.gilfoyle.design.creational.factory.factory_method" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ObserverTest">
-    <configuration name="BridgeClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gilfoyle.design.structural.bridge.BridgeClient" />
+  <component name="RunManager" selected="Application.IteratorClient">
+    <configuration name="InvokerCommandTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gilfoyle.design.behavioral.command.test.InvokerCommandTest" />
       <module name="gilfoyle-design-patterns" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gilfoyle.design.structural.bridge.*" />
+          <option name="PATTERN" value="com.gilfoyle.design.behavioral.command.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,13 +141,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BridgeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gilfoyle.design.structural.bridge.test.BridgeTest" />
+    <configuration name="IteratorClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gilfoyle.design.behavioral.iterator.IteratorClient" />
       <module name="gilfoyle-design-patterns" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gilfoyle.design.structural.bridge.test.*" />
+          <option name="PATTERN" value="com.gilfoyle.design.behavioral.iterator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Leave_ChainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gilfoyle.design.behavioral.chain_of_responsibility.simple.test.Leave_ChainTest" />
+      <module name="gilfoyle-design-patterns" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gilfoyle.design.behavioral.chain_of_responsibility.simple.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,34 +176,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.gilfoyle.design.behavioral.observer.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StrategyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gilfoyle.design.behavioral.strategy.test.StrategyTest" />
-      <module name="gilfoyle-design-patterns" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gilfoyle.design.behavioral.strategy.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TemplateMethodTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gilfoyle.design.behavioral.template_method.test.TemplateMethodTest" />
-      <module name="gilfoyle-design-patterns" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gilfoyle.design.behavioral.template_method.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,6 +212,19 @@
         <option name="nim.task.build.to.cache" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="gilfoyle-design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gilfoyle.design.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gilfoyle.design.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GilfoyleDesignPatternsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="gilfoyle-design-patterns" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.gilfoyle.design.GilfoyleDesignPatternsApplication" />
@@ -230,11 +243,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IteratorClient" />
+        <item itemvalue="Application.InvokerCommandTest" />
+        <item itemvalue="Application.Leave_ChainTest" />
+        <item itemvalue="Spring Boot.Application" />
         <item itemvalue="Application.ObserverTest" />
-        <item itemvalue="Application.TemplateMethodTest" />
-        <item itemvalue="Application.StrategyTest" />
-        <item itemvalue="Application.BridgeClient" />
-        <item itemvalue="Application.BridgeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -257,7 +270,7 @@
       <workItem from="1662472465048" duration="2857000" />
       <workItem from="1662477038222" duration="9242000" />
       <workItem from="1662697257044" duration="1315000" />
-      <workItem from="1662698596612" duration="11185000" />
+      <workItem from="1662698596612" duration="17153000" />
     </task>
     <servers />
   </component>
@@ -281,6 +294,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/gilfoyle/design/structural/proxy/dynamic/dyproxy/DynProxyFactory.java</url>
           <line>14</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/chain_of_responsibility/code/FunctionController.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
