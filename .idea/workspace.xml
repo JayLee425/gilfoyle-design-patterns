@@ -5,14 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efea232b-3d1f-4871-8691-c9abe35b6116" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/memento/code/Memento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/memento/code/Original.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/memento/code/Storage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/state/code/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/state/code/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/gilfoyle/design/behavioral/memento/test/MementoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/memento/Memento.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/memento/Memento.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/state/State.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/state/State.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/interpreter/code/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/interpreter/code/Expression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/interpreter/code/Minus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/interpreter/code/Plus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/visitor/code/MySubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/visitor/code/MyVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/visitor/code/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/visitor/code/Visitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gilfoyle/design/behavioral/interpreter/test/InterpreterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gilfoyle/design/behavioral/visitor/test/VisitorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/interpreter/Interpreter.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/interpreter/Interpreter.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/visitor/Visitor.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gilfoyle/design/behavioral/visitor/Visitor.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,14 +115,14 @@
       <recent name="com.gilfoyle.design.creational.factory.factory_method" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StateTest">
-    <configuration name="InvokerCommandTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gilfoyle.design.behavioral.command.test.InvokerCommandTest" />
+  <component name="RunManager" selected="Application.InterpreterTest">
+    <configuration name="InterpreterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gilfoyle.design.behavioral.interpreter.test.InterpreterTest" />
       <module name="gilfoyle-design-patterns" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gilfoyle.design.behavioral.command.test.*" />
+          <option name="PATTERN" value="com.gilfoyle.design.behavioral.interpreter.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,20 +137,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.gilfoyle.design.behavioral.iterator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Leave_ChainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gilfoyle.design.behavioral.chain_of_responsibility.simple.test.Leave_ChainTest" />
-      <module name="gilfoyle-design-patterns" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gilfoyle.design.behavioral.chain_of_responsibility.simple.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,6 +165,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.gilfoyle.design.behavioral.state.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VisitorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gilfoyle.design.behavioral.visitor.test.VisitorTest" />
+      <module name="gilfoyle-design-patterns" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gilfoyle.design.behavioral.visitor.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -229,11 +233,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InterpreterTest" />
+        <item itemvalue="Application.VisitorTest" />
         <item itemvalue="Application.StateTest" />
         <item itemvalue="Application.MementoTest" />
         <item itemvalue="Application.IteratorClient" />
-        <item itemvalue="Application.InvokerCommandTest" />
-        <item itemvalue="Application.Leave_ChainTest" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +260,7 @@
       <workItem from="1662472465048" duration="2857000" />
       <workItem from="1662477038222" duration="9242000" />
       <workItem from="1662697257044" duration="1315000" />
-      <workItem from="1662698596612" duration="19467000" />
+      <workItem from="1662698596612" duration="20896000" />
     </task>
     <servers />
   </component>
