@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.gilfoyle.design.behavioral.mediator.code.User</OriginalElement>
+  <nodes>
+    <node x="145.27599999999998" y="0.0">com.gilfoyle.design.behavioral.mediator.code.Mediator</node>
+    <node x="255.5903333333333" y="127.0">com.gilfoyle.design.behavioral.mediator.code.User</node>
+    <node x="175.992" y="410.0">com.gilfoyle.design.behavioral.mediator.code.MyMediator</node>
+    <node x="189.5" y="280.0">com.gilfoyle.design.behavioral.mediator.code.User1</node>
+    <node x="10.5" y="280.0">com.gilfoyle.design.behavioral.mediator.code.User2</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.gilfoyle.design.behavioral.mediator.code.User1" target="com.gilfoyle.design.behavioral.mediator.code.Mediator" relationship="DEPENDENCY">
+      <point x="-39.5" y="-39.0" />
+      <point x="229.0" y="249.0" />
+      <point x="236.69833333333332" y="249.0" />
+      <point x="236.69833333333332" y="107.0" />
+      <point x="222.91666666666669" y="107.0" />
+      <point x="222.91666666666669" y="97.0" />
+      <point x="241.27599999999998" y="97.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="com.gilfoyle.design.behavioral.mediator.code.User1" target="com.gilfoyle.design.behavioral.mediator.code.User" relationship="GENERALIZATION">
+      <point x="-54.5" y="-39.0" />
+      <point x="214.0" y="265.0" />
+      <point x="340.59" y="265.0" />
+      <point x="-3.3333333334439885E-4" y="50.5" />
+    </edge>
+    <edge source="com.gilfoyle.design.behavioral.mediator.code.MyMediator" target="com.gilfoyle.design.behavioral.mediator.code.User" relationship="DEPENDENCY">
+      <point x="93.00800000000004" y="-72.5" />
+      <point x="24.40966666666668" y="50.5" />
+    </edge>
+    <edge source="com.gilfoyle.design.behavioral.mediator.code.User2" target="com.gilfoyle.design.behavioral.mediator.code.Mediator" relationship="DEPENDENCY">
+      <point x="-39.75" y="-39.0" />
+      <point x="50.25" y="107.0" />
+      <point x="222.91666666666669" y="107.0" />
+      <point x="222.91666666666669" y="97.0" />
+      <point x="241.27599999999998" y="97.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="com.gilfoyle.design.behavioral.mediator.code.User2" target="com.gilfoyle.design.behavioral.mediator.code.User" relationship="GENERALIZATION">
+      <point x="0.0" y="-39.0" />
+      <point x="90.0" y="265.0" />
+      <point x="340.59" y="265.0" />
+      <point x="-3.3333333334439885E-4" y="50.5" />
+    </edge>
+    <edge source="com.gilfoyle.design.behavioral.mediator.code.MyMediator" target="com.gilfoyle.design.behavioral.mediator.code.Mediator" relationship="REALIZATION">
+      <point x="-76.80000000000004" y="-72.5" />
+      <point x="195.19199999999995" y="389.0" />
+      <point x="0.0" y="389.0" />
+      <point x="0.0" y="97.0" />
+      <point x="177.27599999999998" y="97.0" />
+      <point x="-64.0" y="38.5" />
+    </edge>
+    <edge source="com.gilfoyle.design.behavioral.mediator.code.MyMediator" target="com.gilfoyle.design.behavioral.mediator.code.User" relationship="TO_ONE">
+      <point x="96.0" y="0.0" />
+      <point x="390.0" y="482.5" />
+      <point x="49.40966666666668" y="50.5" />
+    </edge>
+    <edge source="com.gilfoyle.design.behavioral.mediator.code.User" target="com.gilfoyle.design.behavioral.mediator.code.Mediator" relationship="TO_ONE">
+      <point x="-10.814333333333366" y="-50.5" />
+      <point x="88.49999999999997" y="38.5" />
+    </edge>
+    <edge source="com.gilfoyle.design.behavioral.mediator.code.MyMediator" target="com.gilfoyle.design.behavioral.mediator.code.User2" relationship="CREATE">
+      <point x="-38.400000000000034" y="-72.5" />
+      <point x="233.59199999999996" y="379.0" />
+      <point x="90.0" y="379.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="com.gilfoyle.design.behavioral.mediator.code.User" target="com.gilfoyle.design.behavioral.mediator.code.Mediator" relationship="DEPENDENCY">
+      <point x="-77.5" y="-50.5" />
+      <point x="21.814333333333337" y="38.5" />
+    </edge>
+    <edge source="com.gilfoyle.design.behavioral.mediator.code.MyMediator" target="com.gilfoyle.design.behavioral.mediator.code.User1" relationship="CREATE">
+      <point x="-1.4210854715202004E-14" y="-72.5" />
+      <point x="271.99199999999996" y="389.0" />
+      <point x="268.5" y="389.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="110.0" y="132.5" />
+  <SelectedNodes>
+    <node>com.gilfoyle.design.behavioral.mediator.code.User</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
