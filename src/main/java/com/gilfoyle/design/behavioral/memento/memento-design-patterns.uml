@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.gilfoyle.design.behavioral.memento.code.Storage</OriginalElement>
+  <nodes>
+    <node x="127.75" y="0.0">com.gilfoyle.design.behavioral.memento.code.Memento</node>
+    <node x="0.0" y="250.0">com.gilfoyle.design.behavioral.memento.code.Storage</node>
+    <node x="232.0" y="217.0">com.gilfoyle.design.behavioral.memento.code.Original</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.gilfoyle.design.behavioral.memento.code.Original" target="com.gilfoyle.design.behavioral.memento.code.Memento" relationship="CREATE">
+      <point x="0.0" y="-116.5" />
+      <point x="361.5" y="192.0" />
+      <point x="286.75" y="192.0" />
+      <point x="53.0" y="83.5" />
+    </edge>
+    <edge source="com.gilfoyle.design.behavioral.memento.code.Storage" target="com.gilfoyle.design.behavioral.memento.code.Memento" relationship="TO_ONE">
+      <point x="0.0" y="-83.5" />
+      <point x="106.0" y="192.0" />
+      <point x="180.75" y="192.0" />
+      <point x="-53.0" y="83.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="64.5" y="90.0" />
+  <SelectedNodes>
+    <node>com.gilfoyle.design.behavioral.memento.code.Storage</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

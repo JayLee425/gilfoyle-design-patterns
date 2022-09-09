@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.gilfoyle.design.behavioral.state.code.Context</OriginalElement>
+  <nodes>
+    <node x="0.0" y="128.0">com.gilfoyle.design.behavioral.state.code.Context</node>
+    <node x="10.5" y="0.0">com.gilfoyle.design.behavioral.state.code.State</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.gilfoyle.design.behavioral.state.code.Context" target="com.gilfoyle.design.behavioral.state.code.State" relationship="TO_ONE">
+      <point x="0.0" y="-39.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="com.gilfoyle.design.behavioral.state.code.Context" target="com.gilfoyle.design.behavioral.state.code.State" relationship="DEPENDENCY">
+      <point x="15.0" y="-39.0" />
+      <point x="15.0" y="39.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="58.5" y="52.5" />
+  <SelectedNodes>
+    <node>com.gilfoyle.design.behavioral.state.code.Context</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
