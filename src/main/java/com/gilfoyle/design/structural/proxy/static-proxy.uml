@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.gilfoyle.design.structural.proxy.statics.ILawSuit</OriginalElement>
+  <nodes>
+    <node x="223.0" y="0.0">com.gilfoyle.design.structural.proxy.statics.ILawSuit</node>
+    <node x="0.0" y="127.0">com.gilfoyle.design.structural.proxy.statics.ProxyLawyer</node>
+    <node x="208.8068181818182" y="302.0">com.gilfoyle.design.structural.proxy.statics.ProxyStaticFactory</node>
+    <node x="223.0" y="138.5">com.gilfoyle.design.structural.proxy.statics.DogLee</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.gilfoyle.design.structural.proxy.statics.DogLee" target="com.gilfoyle.design.structural.proxy.statics.ILawSuit" relationship="REALIZATION">
+      <point x="0.0" y="-50.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="com.gilfoyle.design.structural.proxy.statics.ProxyStaticFactory" target="com.gilfoyle.design.structural.proxy.statics.ProxyLawyer" relationship="CREATE">
+      <point x="-70.0" y="-39.0" />
+      <point x="243.8068181818182" y="276.0" />
+      <point x="101.5" y="276.0" />
+      <point x="0.0" y="61.5" />
+    </edge>
+    <edge source="com.gilfoyle.design.structural.proxy.statics.ProxyLawyer" target="com.gilfoyle.design.structural.proxy.statics.ILawSuit" relationship="TO_ONE">
+      <point x="-15.0" y="-61.5" />
+      <point x="86.5" y="38.5" />
+      <point x="-88.5" y="0.0" />
+    </edge>
+    <edge source="com.gilfoyle.design.structural.proxy.statics.ProxyLawyer" target="com.gilfoyle.design.structural.proxy.statics.ILawSuit" relationship="REALIZATION">
+      <point x="0.0" y="-61.5" />
+      <point x="101.5" y="102.0" />
+      <point x="311.5" y="102.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="com.gilfoyle.design.structural.proxy.statics.ProxyStaticFactory" target="com.gilfoyle.design.structural.proxy.statics.DogLee" relationship="CREATE">
+      <point x="0.0" y="-39.0" />
+      <point x="313.8068181818182" y="276.0" />
+      <point x="311.5" y="276.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="com.gilfoyle.design.structural.proxy.statics.ProxyStaticFactory" target="com.gilfoyle.design.structural.proxy.statics.ILawSuit" relationship="DEPENDENCY">
+      <point x="103.69318181818181" y="-39.0" />
+      <point x="417.5" y="38.5" />
+      <point x="88.5" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="209.5" y="190.0" />
+  <SelectedNodes>
+    <node>com.gilfoyle.design.structural.proxy.statics.ILawSuit</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

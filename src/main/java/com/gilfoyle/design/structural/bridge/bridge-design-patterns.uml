@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.gilfoyle.design.structural.bridge.code.MediumCoffee</OriginalElement>
+  <nodes>
+    <node x="696.0416666666666" y="105.0">com.gilfoyle.design.structural.bridge.code.Coffee</node>
+    <node x="609.6666666666666" y="408.0">com.gilfoyle.design.structural.bridge.code.LargeCoffee</node>
+    <node x="0.0" y="116.5">com.gilfoyle.design.structural.bridge.code.Milk</node>
+    <node x="575.8658536585365" y="538.0">com.gilfoyle.design.structural.bridge.BridgeClient</node>
+    <node x="336.66666666666663" y="408.0">com.gilfoyle.design.structural.bridge.code.SmallCoffee</node>
+    <node x="882.6666666666666" y="408.0">com.gilfoyle.design.structural.bridge.code.MediumCoffee</node>
+    <node x="590.0416666666666" y="0.0">com.gilfoyle.design.structural.bridge.code.ICoffeeAdditives</node>
+    <node x="207.0" y="116.5">com.gilfoyle.design.structural.bridge.code.Sugar</node>
+    <node x="602.3658536585365" y="258.0">com.gilfoyle.design.structural.bridge.code.RefinedCoffee</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.gilfoyle.design.structural.bridge.BridgeClient" target="com.gilfoyle.design.structural.bridge.code.Sugar" relationship="CREATE">
+      <point x="-43.0" y="-39.0" />
+      <point x="618.8658536585365" y="512.0" />
+      <point x="300.5" y="512.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="com.gilfoyle.design.structural.bridge.code.LargeCoffee" target="com.gilfoyle.design.structural.bridge.code.Coffee" relationship="DEPENDENCY">
+      <point x="84.33333333333337" y="-39.0" />
+      <point x="820.5" y="377.0" />
+      <point x="879.8658536585365" y="377.0" />
+      <point x="879.8658536585365" y="227.0" />
+      <point x="864.0416666666666" y="227.0" />
+      <point x="56.0" y="50.5" />
+    </edge>
+    <edge source="com.gilfoyle.design.structural.bridge.BridgeClient" target="com.gilfoyle.design.structural.bridge.code.MediumCoffee" relationship="CREATE">
+      <point x="43.0" y="-39.0" />
+      <point x="704.8658536585365" y="512.0" />
+      <point x="1017.1666666666666" y="512.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="com.gilfoyle.design.structural.bridge.code.RefinedCoffee" target="com.gilfoyle.design.structural.bridge.code.Coffee" relationship="GENERALIZATION">
+      <point x="66.75" y="-39.0" />
+      <point x="802.6158536585365" y="237.0" />
+      <point x="752.0416666666666" y="237.0" />
+      <point x="-56.0" y="50.5" />
+    </edge>
+    <edge source="com.gilfoyle.design.structural.bridge.code.Sugar" target="com.gilfoyle.design.structural.bridge.code.ICoffeeAdditives" relationship="REALIZATION">
+      <point x="0.0" y="-39.0" />
+      <point x="300.5" y="85.0" />
+      <point x="212.86585365853648" y="85.0" />
+      <point x="212.86585365853648" y="75.0" />
+      <point x="621.875" y="75.0" />
+      <point x="-63.66666666666666" y="27.5" />
+    </edge>
+    <edge source="com.gilfoyle.design.structural.bridge.code.LargeCoffee" target="com.gilfoyle.design.structural.bridge.code.ICoffeeAdditives" relationship="DEPENDENCY">
+      <point x="-84.33333333333326" y="-39.0" />
+      <point x="651.8333333333334" y="357.0" />
+      <point x="590.1158536585365" y="357.0" />
+      <point x="590.1158536585365" y="85.0" />
+      <point x="685.5416666666666" y="85.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="com.gilfoyle.design.structural.bridge.code.MediumCoffee" target="com.gilfoyle.design.structural.bridge.code.Coffee" relationship="DEPENDENCY">
+      <point x="0.0" y="-39.0" />
+      <point x="1017.1666666666666" y="387.0" />
+      <point x="1055.331300813008" y="387.0" />
+      <point x="1055.331300813008" y="237.0" />
+      <point x="879.8658536585365" y="237.0" />
+      <point x="879.8658536585365" y="227.0" />
+      <point x="864.0416666666666" y="227.0" />
+      <point x="56.0" y="50.5" />
+    </edge>
+    <edge source="com.gilfoyle.design.structural.bridge.code.MediumCoffee" target="com.gilfoyle.design.structural.bridge.code.ICoffeeAdditives" relationship="DEPENDENCY">
+      <point x="89.66666666666669" y="-39.0" />
+      <point x="1106.8333333333333" y="387.0" />
+      <point x="1066.331300813008" y="387.0" />
+      <point x="1066.331300813008" y="85.0" />
+      <point x="685.5416666666666" y="85.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="com.gilfoyle.design.structural.bridge.code.MediumCoffee" target="com.gilfoyle.design.structural.bridge.code.RefinedCoffee" relationship="GENERALIZATION">
+      <point x="-89.66666666666669" y="-39.0" />
+      <point x="927.5" y="387.0" />
+      <point x="735.8658536585365" y="387.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="com.gilfoyle.design.structural.bridge.code.Milk" target="com.gilfoyle.design.structural.bridge.code.ICoffeeAdditives" relationship="REALIZATION">
+      <point x="0.0" y="-39.0" />
+      <point x="93.5" y="85.0" />
+      <point x="212.86585365853648" y="85.0" />
+      <point x="212.86585365853648" y="75.0" />
+      <point x="621.875" y="75.0" />
+      <point x="-63.66666666666666" y="27.5" />
+    </edge>
+    <edge source="com.gilfoyle.design.structural.bridge.code.SmallCoffee" target="com.gilfoyle.design.structural.bridge.code.ICoffeeAdditives" relationship="DEPENDENCY">
+      <point x="-84.33333333333331" y="-39.0" />
+      <point x="378.8333333333333" y="387.0" />
+      <point x="415.5" y="387.0" />
+      <point x="415.5" y="85.0" />
+      <point x="685.5416666666666" y="85.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="com.gilfoyle.design.structural.bridge.code.SmallCoffee" target="com.gilfoyle.design.structural.bridge.code.RefinedCoffee" relationship="GENERALIZATION">
+      <point x="84.33333333333331" y="-39.0" />
+      <point x="547.5" y="387.0" />
+      <point x="735.8658536585365" y="387.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="com.gilfoyle.design.structural.bridge.code.Coffee" target="com.gilfoyle.design.structural.bridge.code.ICoffeeAdditives" relationship="DEPENDENCY">
+      <point x="-56.0" y="-50.5" />
+      <point x="752.0416666666666" y="85.0" />
+      <point x="685.5416666666666" y="85.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="com.gilfoyle.design.structural.bridge.code.LargeCoffee" target="com.gilfoyle.design.structural.bridge.code.RefinedCoffee" relationship="GENERALIZATION">
+      <point x="0.0" y="-39.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="com.gilfoyle.design.structural.bridge.code.SmallCoffee" target="com.gilfoyle.design.structural.bridge.code.Coffee" relationship="DEPENDENCY">
+      <point x="0.0" y="-39.0" />
+      <point x="463.16666666666663" y="367.0" />
+      <point x="879.8658536585365" y="367.0" />
+      <point x="879.8658536585365" y="227.0" />
+      <point x="864.0416666666666" y="227.0" />
+      <point x="56.0" y="50.5" />
+    </edge>
+    <edge source="com.gilfoyle.design.structural.bridge.code.Coffee" target="com.gilfoyle.design.structural.bridge.code.ICoffeeAdditives" relationship="TO_ONE">
+      <point x="56.0" y="-50.5" />
+      <point x="864.0416666666666" y="75.0" />
+      <point x="749.2083333333333" y="75.0" />
+      <point x="63.66666666666663" y="27.5" />
+    </edge>
+    <edge source="com.gilfoyle.design.structural.bridge.code.RefinedCoffee" target="com.gilfoyle.design.structural.bridge.code.ICoffeeAdditives" relationship="DEPENDENCY">
+      <point x="-66.75" y="-39.0" />
+      <point x="669.1158536585365" y="237.0" />
+      <point x="685.5416666666666" y="237.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.8361774744027304" showDependencies="true" x="576.0" y="308.0" />
+  <SelectedNodes>
+    <node>com.gilfoyle.design.structural.bridge.code.MediumCoffee</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

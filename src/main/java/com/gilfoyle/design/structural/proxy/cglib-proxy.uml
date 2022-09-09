@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.gilfoyle.design.structural.proxy.cglib.cgproxy.CglibDynProxyLawyer</OriginalElement>
+  <nodes>
+    <node x="77.5" y="128.0">com.gilfoyle.design.structural.proxy.cglib.cgproxy.CgLibDynProxyFactory</node>
+    <node x="0.0" y="251.0">com.gilfoyle.design.structural.proxy.cglib.Frank</node>
+    <node x="0.0" y="0.0">com.gilfoyle.design.structural.proxy.cglib.cgproxy.CglibDynProxyLawyer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.gilfoyle.design.structural.proxy.cglib.cgproxy.CgLibDynProxyFactory" target="com.gilfoyle.design.structural.proxy.cglib.cgproxy.CglibDynProxyLawyer" relationship="CREATE">
+      <point x="0.0" y="-39.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="214.0" y="175.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
