@@ -2,7 +2,7 @@
 
 ****
 
-<image src="src/main/java/com/gilfoyle/design/structural/设计模式---结构设计模式.png"/>
+<img src="src/main/java/com/gilfoyle/design/structural/设计模式---结构设计模式.png"  height="80%"/>
 
 ****
 

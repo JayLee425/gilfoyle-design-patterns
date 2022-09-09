@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.gilfoyle.design.behavioral.strategy.code.Minus</OriginalElement>
+  <nodes>
+    <node x="422.75000000000006" y="105.0">com.gilfoyle.design.behavioral.strategy.code.AbstractCalculator</node>
+    <node x="297.75000000000006" y="235.0">com.gilfoyle.design.behavioral.strategy.code.Plus</node>
+    <node x="695.75" y="235.0">com.gilfoyle.design.behavioral.strategy.code.Minus</node>
+    <node x="0.0" y="105.0">com.gilfoyle.design.behavioral.strategy.code.CalculateFactory</node>
+    <node x="496.75000000000006" y="235.0">com.gilfoyle.design.behavioral.strategy.code.Multiply</node>
+    <node x="315.6333333333334" y="0.0">com.gilfoyle.design.behavioral.strategy.code.ICalculator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.gilfoyle.design.behavioral.strategy.code.CalculateFactory" target="com.gilfoyle.design.behavioral.strategy.code.ICalculator" relationship="DEPENDENCY">
+      <point x="0.0" y="-39.0" />
+      <point x="166.0" y="75.0" />
+      <point x="360.3833333333334" y="75.0" />
+      <point x="-44.75" y="27.5" />
+    </edge>
+    <edge source="com.gilfoyle.design.behavioral.strategy.code.Plus" target="com.gilfoyle.design.behavioral.strategy.code.AbstractCalculator" relationship="GENERALIZATION">
+      <point x="44.75" y="-39.0" />
+      <point x="432.00000000000006" y="214.0" />
+      <point x="528.25" y="214.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="com.gilfoyle.design.behavioral.strategy.code.Plus" target="com.gilfoyle.design.behavioral.strategy.code.ICalculator" relationship="REALIZATION">
+      <point x="-44.75" y="-39.0" />
+      <point x="342.50000000000006" y="85.0" />
+      <point x="586.25" y="85.0" />
+      <point x="586.25" y="75.0" />
+      <point x="449.8833333333334" y="75.0" />
+      <point x="44.75" y="27.5" />
+    </edge>
+    <edge source="com.gilfoyle.design.behavioral.strategy.code.Minus" target="com.gilfoyle.design.behavioral.strategy.code.ICalculator" relationship="REALIZATION">
+      <point x="44.75" y="-39.0" />
+      <point x="830.0" y="85.0" />
+      <point x="586.25" y="85.0" />
+      <point x="586.25" y="75.0" />
+      <point x="449.8833333333334" y="75.0" />
+      <point x="44.75" y="27.5" />
+    </edge>
+    <edge source="com.gilfoyle.design.behavioral.strategy.code.AbstractCalculator" target="com.gilfoyle.design.behavioral.strategy.code.ICalculator" relationship="REALIZATION">
+      <point x="0.0" y="-39.0" />
+      <point x="528.25" y="85.0" />
+      <point x="586.25" y="85.0" />
+      <point x="586.25" y="75.0" />
+      <point x="449.8833333333334" y="75.0" />
+      <point x="44.75" y="27.5" />
+    </edge>
+    <edge source="com.gilfoyle.design.behavioral.strategy.code.Minus" target="com.gilfoyle.design.behavioral.strategy.code.AbstractCalculator" relationship="GENERALIZATION">
+      <point x="-44.75" y="-39.0" />
+      <point x="740.5" y="214.0" />
+      <point x="528.25" y="214.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="com.gilfoyle.design.behavioral.strategy.code.Multiply" target="com.gilfoyle.design.behavioral.strategy.code.ICalculator" relationship="REALIZATION">
+      <point x="44.75" y="-39.0" />
+      <point x="631.0" y="204.0" />
+      <point x="644.25" y="204.0" />
+      <point x="644.25" y="85.0" />
+      <point x="586.25" y="85.0" />
+      <point x="586.25" y="75.0" />
+      <point x="449.8833333333334" y="75.0" />
+      <point x="44.75" y="27.5" />
+    </edge>
+    <edge source="com.gilfoyle.design.behavioral.strategy.code.Multiply" target="com.gilfoyle.design.behavioral.strategy.code.AbstractCalculator" relationship="GENERALIZATION">
+      <point x="-44.75" y="-39.0" />
+      <point x="541.5" y="214.0" />
+      <point x="528.25" y="214.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.15" showDependencies="true" x="437.5" y="156.5" />
+  <SelectedNodes>
+    <node>com.gilfoyle.design.behavioral.strategy.code.CalculateFactory</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.gilfoyle.design.behavioral.strategy.code.Minus</OriginalElement>
+  <nodes>
+    <node x="125.0" y="105.0">com.gilfoyle.design.behavioral.strategy.code.AbstractCalculator</node>
+    <node x="0.0" y="235.0">com.gilfoyle.design.behavioral.strategy.code.Plus</node>
+    <node x="398.0" y="235.0">com.gilfoyle.design.behavioral.strategy.code.Minus</node>
+    <node x="199.0" y="235.0">com.gilfoyle.design.behavioral.strategy.code.Multiply</node>
+    <node x="199.0" y="0.0">com.gilfoyle.design.behavioral.strategy.code.ICalculator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.gilfoyle.design.behavioral.strategy.code.Plus" target="com.gilfoyle.design.behavioral.strategy.code.AbstractCalculator" relationship="GENERALIZATION">
+      <point x="44.75" y="-39.0" />
+      <point x="134.25" y="214.0" />
+      <point x="230.5" y="214.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="com.gilfoyle.design.behavioral.strategy.code.Plus" target="com.gilfoyle.design.behavioral.strategy.code.ICalculator" relationship="REALIZATION">
+      <point x="-44.75" y="-39.0" />
+      <point x="44.75" y="80.0" />
+      <point x="288.5" y="80.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="com.gilfoyle.design.behavioral.strategy.code.Minus" target="com.gilfoyle.design.behavioral.strategy.code.ICalculator" relationship="REALIZATION">
+      <point x="44.75" y="-39.0" />
+      <point x="532.25" y="80.0" />
+      <point x="288.5" y="80.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="com.gilfoyle.design.behavioral.strategy.code.AbstractCalculator" target="com.gilfoyle.design.behavioral.strategy.code.ICalculator" relationship="REALIZATION">
+      <point x="0.0" y="-39.0" />
+      <point x="230.5" y="80.0" />
+      <point x="288.5" y="80.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="com.gilfoyle.design.behavioral.strategy.code.Minus" target="com.gilfoyle.design.behavioral.strategy.code.AbstractCalculator" relationship="GENERALIZATION">
+      <point x="-44.75" y="-39.0" />
+      <point x="442.75" y="214.0" />
+      <point x="230.5" y="214.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="com.gilfoyle.design.behavioral.strategy.code.Multiply" target="com.gilfoyle.design.behavioral.strategy.code.ICalculator" relationship="REALIZATION">
+      <point x="44.75" y="-39.0" />
+      <point x="333.25" y="204.0" />
+      <point x="346.5" y="204.0" />
+      <point x="346.5" y="80.0" />
+      <point x="288.5" y="80.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="com.gilfoyle.design.behavioral.strategy.code.Multiply" target="com.gilfoyle.design.behavioral.strategy.code.AbstractCalculator" relationship="GENERALIZATION">
+      <point x="-44.75" y="-39.0" />
+      <point x="243.75" y="214.0" />
+      <point x="230.5" y="214.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="288.5" y="156.5" />
+  <SelectedNodes>
+    <node>com.gilfoyle.design.behavioral.strategy.code.Minus</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

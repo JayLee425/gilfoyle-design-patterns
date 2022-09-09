@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.gilfoyle.design.behavioral.template_method.code.Minus</OriginalElement>
+  <nodes>
+    <node x="404.0" y="172.0">com.gilfoyle.design.behavioral.template_method.code.Minus</node>
+    <node x="606.0" y="172.0">com.gilfoyle.design.behavioral.template_method.code.Multiply</node>
+    <node x="202.0" y="172.0">com.gilfoyle.design.behavioral.template_method.code.Plus</node>
+    <node x="0.0" y="172.0">com.gilfoyle.design.behavioral.template_method.code.Divide</node>
+    <node x="254.0" y="0.0">com.gilfoyle.design.behavioral.template_method.code.AbstractCalculateTemplate</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.gilfoyle.design.behavioral.template_method.code.Minus" target="com.gilfoyle.design.behavioral.template_method.code.AbstractCalculateTemplate" relationship="GENERALIZATION">
+      <point x="0.0" y="-39.0" />
+      <point x="495.0" y="147.0" />
+      <point x="394.0" y="147.0" />
+      <point x="0.0" y="61.0" />
+    </edge>
+    <edge source="com.gilfoyle.design.behavioral.template_method.code.Plus" target="com.gilfoyle.design.behavioral.template_method.code.AbstractCalculateTemplate" relationship="GENERALIZATION">
+      <point x="0.0" y="-39.0" />
+      <point x="293.0" y="147.0" />
+      <point x="394.0" y="147.0" />
+      <point x="0.0" y="61.0" />
+    </edge>
+    <edge source="com.gilfoyle.design.behavioral.template_method.code.Divide" target="com.gilfoyle.design.behavioral.template_method.code.AbstractCalculateTemplate" relationship="GENERALIZATION">
+      <point x="0.0" y="-39.0" />
+      <point x="91.0" y="147.0" />
+      <point x="394.0" y="147.0" />
+      <point x="0.0" y="61.0" />
+    </edge>
+    <edge source="com.gilfoyle.design.behavioral.template_method.code.Multiply" target="com.gilfoyle.design.behavioral.template_method.code.AbstractCalculateTemplate" relationship="GENERALIZATION">
+      <point x="0.0" y="-39.0" />
+      <point x="697.0" y="147.0" />
+      <point x="394.0" y="147.0" />
+      <point x="0.0" y="61.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="394.0" y="125.0" />
+  <SelectedNodes>
+    <node>com.gilfoyle.design.behavioral.template_method.code.Minus</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
