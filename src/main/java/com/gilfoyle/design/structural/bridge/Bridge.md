@@ -1,4 +1,4 @@
-* 装饰   [（Decorator）模式]
+* 桥接   [（Bridge）模式]
 
 ```hql
 
