@@ -8,8 +8,8 @@ package com.gilfoyle.design.behavioral.command.code;
  */
 
 /**
- * Invoker是调用者（司令员），
- * Receiver是被调用者（士兵），
+ * Invoker是调用者（司令员）， 发号施令者
+ * Receiver是被调用者（士兵）， 执行命令的人
  * MyCommand是命令，实现了Command接口，持有接收对象
  */
 public interface Command {

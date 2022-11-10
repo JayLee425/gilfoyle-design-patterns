@@ -29,7 +29,7 @@
 
 ``` hql
     总结：
-        1、模版模式（Template Method）
+        1、模板模式（Template Method）
             、解释器模式（Interpreter） 
         属于 '类行为模式';
         

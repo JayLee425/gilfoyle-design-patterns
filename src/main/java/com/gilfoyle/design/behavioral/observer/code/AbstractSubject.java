@@ -4,7 +4,7 @@ import java.util.Vector;
 
 /**
  * @author jaylee
- * @description:
+ * @description: todo 具体目标对象，维护观察者集合，在状态发生变化时通知观察者
  * @author: Mr.JayLee
  * @create: 2022-09-09 16:18
  */

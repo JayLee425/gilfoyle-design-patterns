@@ -2,7 +2,7 @@ package com.gilfoyle.design.behavioral.command.code;
 
 /**
  * @author jaylee
- * @description: Receiver是被调用者（士兵）
+ * @description: Receiver是被调用者（士兵）todo 执行命令的对象
  * @author: Mr.JayLee
  * @create: 2022-09-09 20:14
  */

@@ -3,6 +3,7 @@ package com.gilfoyle.design.behavioral.observer.code;
 /**
  * @author jaylee
  * @description: 观察者one
+ *              {todo 具体观察者，维持一个目标对象指针(也可以没有，只能被动接受通知信息)；实现更新接口。}
  * @author: Mr.JayLee
  * @create: 2022-09-09 16:17
  */

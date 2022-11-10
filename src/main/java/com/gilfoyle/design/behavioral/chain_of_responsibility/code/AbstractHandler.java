@@ -2,11 +2,10 @@ package com.gilfoyle.design.behavioral.chain_of_responsibility.code;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.util.Objects;
 
 /**
  * @author jaylee
- * @description: 订阅一个接口或者抽象类
+ * @description: 定义一个接口或者抽象类
  * @author: Mr.JayLee
  * @create: 2022-09-09 19:04
  */
@@ -23,9 +22,9 @@ public abstract class AbstractHandler {
 		 */
 		doFilter(request,response);
 		//如果还有下个链，执行下个链
-		if (!Objects.isNull(getNextHandler())){
-			getNextHandler().doFilter(request, response);
-		}
+		//if (!Objects.isNull(getNextHandler())){
+		//	getNextHandler().doFilter(request, response);
+		//}
 	}
 	
 	//获取下一个链对象

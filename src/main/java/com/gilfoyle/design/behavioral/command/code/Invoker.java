@@ -2,7 +2,7 @@ package com.gilfoyle.design.behavioral.command.code;
 
 /**
  * @author jaylee
- * @description: 司令员下命令 （Invoker是调用者（司令员））
+ * @description: 司令员下命令 （Invoker是调用者（司令员）） todo 命令的发起者
  * @author: Mr.JayLee
  * @create: 2022-09-09 20:16
  */
